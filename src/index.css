@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Sofadi+One&display=swap');
+.to-do-list {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Bungee Spice", Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-button {
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background: #218838;
+}
+
+.clear-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    background: darkred;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+.task-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    margin-bottom: 12px;
+    font-size: 16px;
+    border-left: 5px solid #007bff;
+    transition: transform 0.2s;
+}
+
+.task-box:hover {
+    transform: scale(1.02);
+}
+
+.text {
+
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button:last-child {
+    background: #dc3545;
+}
+
+button:last-child:hover {
+    background: #c82333;
+}
